@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "diesel-media-382220-tfstate"
     prefix = "env/prod"
   }
 }
